@@ -1,0 +1,400 @@
+html, body
+{
+    height:100%;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+     
+}
+html { 
+  background: url('images/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body
+{
+    font-family:Roboto;
+    margin:0 auto;
+    min-width:600px;
+    color:white;
+    font-size:18px;
+}
+header
+{
+    font-size:40px;   
+}
+h2
+{
+    font-size:25px;
+}
+nav[name=top]
+{
+    position:fixed;
+    top:0;
+    width:100%;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    background-color:rgba(38, 72, 87, 0.4);
+}
+nav[name=top] ul
+{
+    list-style:none;
+    text-align:center;
+    margin:0 ;
+    padding:10px 0px 10px 0px;
+}
+nav[name=top] li
+{
+    display:inline-block;
+    margin-left:45px;
+    cursor:pointer;
+}
+nav[name=bottom]
+{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    color:white;
+    text-align:right;
+    font-size:30px;
+}
+nav[name=bottom] li
+{
+    display:inline-block;
+    cursor:pointer;
+    list-style-type:none;
+    margin:0px 20px 0px 20px;
+}
+#container
+{
+    margin:0px 50px 0px 50px;
+}
+
+/*
+    HOME
+*/
+
+#home
+{
+    width:100%;
+    height:100vh;
+}
+#home code
+{
+    margin-top:0;
+}
+#home header[name=main]
+{
+    margin:150px 0px 100px 0px;
+    text-align:center;
+}
+#home td[name=short]
+{
+    width:40%;
+    vertical-align:bottom;
+    margin-right:10%;
+}
+#home header
+{
+    margin-right:10%;
+}
+#home td[name=short]
+{
+    width:50%;   
+}
+#home p
+{
+    font-size:20px;
+    margin-right:10%;
+}
+#home td[name=image]
+{
+    width:50%;
+}
+#home img
+{
+    border:4px solid rgba(38, 72, 87, 0.8);    
+    width:100%;
+}
+
+/*
+    OVERVIEW
+*/
+
+#overview
+{
+    width:100%;
+    height:100vh;
+}
+#overview header
+{
+    margin-bottom:15px;
+    text-align:center;
+    padding-top:25vh;
+}
+#overview td[name=image]
+{
+    width:40%;
+}
+#overview img
+{
+    border:4px solid rgba(38, 72, 87, 0.8);
+    width:100%;
+}
+#overview td[name=short]
+{
+    width:60%;
+}
+#overview p, ul
+{
+    display:inline-block;
+    margin-left:10%;
+}
+
+/*
+    TECHNOLOGY
+*/
+
+#technology
+{
+    width:100%;
+    height:100vh;
+}  
+#technology header
+{
+    margin-bottom:15px;
+    text-align:center;
+    padding-top:5vh;
+}
+#technology p[name=main]
+{
+    width:50%;
+    margin:auto;
+}
+#technology td[name=desc]
+{
+    width:100%;
+}
+#technology h3
+{
+    text-align:center;
+    width:60%;
+    margin:0 auto;
+    padding-bottom:25px;
+}
+#technology td[name=hs3], td[name=smap]
+{
+    width:50%;   
+}
+#technology img
+{
+    width:90%;
+    border:4px solid rgba(38, 72, 87, 0.8);
+}
+#technology table h4
+{
+    width:90%;
+}   
+
+/*
+    GLOBAL HAWK
+*/
+
+#globalhawk
+{
+    width:100%;
+    height:100vh;
+}
+#globalhawk header
+{
+    margin-bottom:15px;
+    text-align:center;
+    padding-top:25vh;
+}
+#globalhawk td[name=globalhawkdesc]
+{
+    width:45%;
+    padding-right:5%;
+}
+#globalhawk td[name=globalhawkvid]
+{
+    width:45%;
+    padding-left:5%;
+}
+
+/*
+    INSTRUMENTS
+*/
+
+#globalinstruments
+{
+    width:100%;
+    height:200vh;
+}
+#globalinstruments header
+{
+    margin-bottom:15px;
+    text-align:left;
+    font-size:30px; 
+}
+#globalinstruments td[name=s-hispic]
+{
+    width:50%;   
+}
+#globalinstruments img
+{
+    width:100%;
+    border:4px solid rgba(38, 72, 87, 0.8);
+}
+#globalinstruments td[name=s-hisdesc]
+{
+    width:40%;
+    text-align:right;
+    padding-left:10%;
+}
+#globalinstruments td[name=cpldesc]
+{
+    width:45%;
+    padding-right:5%;
+}
+#globalinstruments td[name=cplpic]
+{
+    width:45%;
+    padding-left:5%;
+}
+#globalinstruments td[name=hiwrappic]
+{
+    width:45%;
+    padding-right:5%;
+}
+#globalinstruments td[name=hiwrapdesc]
+{
+    width:45%;
+    padding-left:5%;
+}
+
+
+/*
+    SMAP
+*/
+#smap
+{
+    width:100%;
+    height:100vh;
+}
+#smap header
+{
+    padding-top:20vh;
+    margin-bottom:15px; 
+    text-align:center;
+}
+#smap td[name=smapdesc]
+{
+    width:45%;
+    padding-right:5%;
+}
+#smap td[name=smapvid]
+{
+    width:45%;
+    padding-left:5%;
+}
+
+/*
+    INSTRUMENTS FOR SATELLITE
+*/
+#satinstruments
+{
+    width:100%;
+    height:150vh;
+}
+#satinstruments header
+{
+    text-align:left;
+    font-size:30px;
+    margin-bottom:15px;
+}
+#satinstruments td[name=lbanddesc]
+{
+    width:50%;
+    text-align:right;
+}
+#satinstruments td[name=lbandimg]
+{
+    width:45%;
+    padding-right:5%;
+}
+#satinstruments img
+{
+    width:100%;
+    border:4px solid rgba(38, 72, 87, 0.8);
+}   
+#satinstruments td[name=sarprocessdesc]
+{
+    width:45%;
+    padding-right:5%;
+}
+#satinstruments td[name=sarprocessimg] img
+{
+    width:80%;
+    margin-left:20%;
+}
+#satinstruments td[name=sarprocessimg] h4
+{
+    width:80%;
+    margin-left:20%;
+}       
+
+/*
+    EXTRAS
+*/
+#extras
+{
+    width:100%;
+    height:100vh;
+}
+#extras header
+{
+    padding-top:20vh;
+    text-align:center;  
+}
+
+/*
+    QUIZ
+*/
+#quiz
+{
+    width:100%;
+    height:200vh;
+    padding-top:20vh;
+    padding-bottom:150px;
+}
+#quiz header
+{
+    text-align:center;   
+}
+#quiz h2
+{   
+    text-align:center;
+}
+#quiz h4
+{
+    font-size:25px;   
+}
+#quiz ul
+{
+    list-style-type:none;
+    margin:0 auto;
+}
+#quiz li
+{
+    font-size:20px;
+    cursor:pointer;
+    padding-top:5px;
+}
+#quiz p[name=comment]
+{
+    cursor:default;   
+}
